@@ -1,0 +1,122 @@
+body {
+	background-color: rgba(255, 189, 137, 0.83);
+}
+
+.vert-text .social-network-link {
+	margin-left: 30px;
+}
+
+#issues img {
+	width: 200px;
+}
+
+.icon-leisure {
+	width: 100px;
+}
+
+h1 {
+	color: white;
+}
+
+.orange-link {
+	color: #FF7800;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	background-color: #428bca;
+	color: white;
+	border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a,.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.intro {
+	background-color: rgba(252, 147, 65, 0.83);
+}
+
+#subintro {
+	margin-top: 20px;
+}
+
+#profile-picture {
+	width: 100%;
+	max-width: 150px;
+	border: grey solid 2px;
+	border-radius: 5px;
+}
+
+#experiences {
+	background-color: rgba(248, 177, 112, 0.77);
+	color: #5E5E5E;
+}
+
+.job-title {
+	text-align: left;
+}
+
+.multi-post span{
+	opacity:1 !important;
+	width: auto !important;
+	height: auto !important;
+}
+.services {
+	color: #5E5E5E;
+}
+
+#map-jobs {
+	position: absolute;
+	right: 3px;
+	bottom: 0px;
+	right: 3px;
+}
+
+#plus-on-linkedin {
+	color: #0D5391;
+}
+
+#leisures {
+	background-color: rgba(255, 189, 137, 0.83);
+	color: #5E5E5E;
+}
+
+#issues li p {
+	padding-left: 100px;
+}
+
+footer {
+	background-color: #F5D2B4;
+	color: #5E5E5E;
+	padding: 10px;
+}
+
+footer hr {
+	border-color: #5E5E5E;
+}
+
+footer img {
+	height: 40px;
+}
+
+/* Pictures page */
+#links a img {
+	margin-bottom: 2px;
+	margin-right: 2px;
+}
+
+#pictures-gallery {
+	color: #5E5E5E;
+}
+
+#links {
+	margin: 10px 0 20px 0;
+	text-align: center;
+}
+
+#pictures-container {
+	border-radius: 10px;
+	margin: 20px auto 20px auto;
+	background-color: rgba(248, 177, 112, 0.77);
+}
