@@ -11,7 +11,23 @@ body {
 }
 
 .icon-leisure {
-	width: 100px;
+	width: 80px;
+}
+
+#soccer-i {
+	line-height: 130px;
+}
+
+@media ( max-width : 500px) {
+	i.service-icon {
+		line-height: 120px;
+	}
+}
+
+@media ( max-width : 250) {
+	i.service-icon {
+		line-height: 100px;
+	}
 }
 
 h1 {
@@ -48,6 +64,9 @@ h1 {
 	border-radius: 5px;
 }
 
+.center-vertical-img{
+	margin-top: 100px !important;
+}
 #experiences {
 	background-color: rgba(248, 177, 112, 0.77);
 	color: #5E5E5E;
@@ -57,11 +76,12 @@ h1 {
 	text-align: left;
 }
 
-.multi-post span{
-	opacity:1 !important;
+.multi-post span {
+	opacity: 1 !important;
 	width: auto !important;
 	height: auto !important;
 }
+
 .services {
 	color: #5E5E5E;
 }
@@ -116,7 +136,13 @@ footer img {
 }
 
 #pictures-container {
-	border-radius: 10px;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 50px;
 	margin: 20px auto 20px auto;
 	background-color: rgba(248, 177, 112, 0.77);
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 50px;
 }
